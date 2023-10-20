@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner__facture{
+    margin: 8px;
+    padding: 1rem;
+    width: 45rem;
+    height: 50rem;
+    display:flex;
+    flex-direction: column;
+    border: 2px  solid black;
+}
+
+.facture__type{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.type{
+    display: flex;
+    
+    border: 2px  solid black;
+    border-radius: 8px;
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+}
+h2{
+    font-size: 3rem;
+    
+    
+}
+
+.div__conteiner--fecha{
+    display: flex;
+    width: 40%;
+    border: 2px  solid black;
+    justify-content: center;
+    align-items: center; 
+    border:none
+}
+
+.div__conteiner--info{
+    border: 2px  solid black;
+}
+
+.div__conteiner--description{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cantidad descripcion unit importe"
+                                "total";
+
+    border: 2px  solid black;
+
+}
+
+
+.cantidad div, .descripcion div, .unit div, .importe div{
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+}
+
+.textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.total{
+    grid-area: total;
+    margin: 0;
+    text-align: center;
+    border: 2px  solid black;
+    border-radius: 6px;
+    width: 8rem;
+    height: 4rem;
+    
+
+}

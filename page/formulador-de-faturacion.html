@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title> Facturacion </title>
+    
+</head>
+<body>
+
+   
+   
+    
+    <div class="conteiner__facture"> <!-- contenedor de la factura --> 
+        <div class="facture__type">
+            <div>
+                <h1> PRESUPUESTO </h1>
+                <P> DOCUMENTO NO VALIDO COMO FACTURA </P>
+            </div>
+
+            <div class="type">
+                <h2> X </h2>
+            </div>
+            
+            <div class="div__conteiner--fecha"> <!-- formulario-->
+                <p> Fecha: </p>
+                <input type="date">
+            </div>
+        </div>
+
+        
+            
+            <br> <!-- borrar esto -->
+
+        <div class="div__conteiner--info">
+            <form id="info"> 
+                <li> Señor/es <input type="text" placeholder="nombre del cliente"></li>
+                <li> Localidad <input type="text" id=""></li>
+                <li> C.U.I.T <input type="text" id=""></li>
+            </form>
+        </div>
+
+        <br> <!-- borrar esto-->
+    
+        <div class="div__conteiner--description">
+            <div class="cantidad">
+                <p> CANTIDAD </p>
+                <div id="cantidad"> </div>
+            </div>
+            <div class="descripcion">
+                <p> DESCRIPCION </p>
+                <div id="descripcion"> </div>
+            </div>
+            <div class="unit">
+                <p> $ UNITARIO </p>
+                <div id="pUnit"> </div>
+            </div>
+            <div class="importe">
+                <p> IMPORTE </p>
+                <div id="importe"> </div>
+            </div>
+            
+            <div class="total">
+                <p> Total: </p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- contenedor de la factura -->
+    <!-- <div> 
+        <div>
+            <input type="text" id="inputX">
+        </div>
+    </div> -->
+
+<script src="../pruebas.js"></script>
+</body>
+</html>
